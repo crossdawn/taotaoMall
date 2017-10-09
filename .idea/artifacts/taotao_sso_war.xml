@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="taotao-sso:war">
+    <output-path>$PROJECT_DIR$/../taotaoMall/taotao-sso/target</output-path>
+    <root id="archive" name="taotao-sso-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="taotao-sso:war exploded" />
+    </root>
+  </artifact>
+</component>
