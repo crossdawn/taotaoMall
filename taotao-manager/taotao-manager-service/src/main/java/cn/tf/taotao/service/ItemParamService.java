@@ -2,7 +2,6 @@ package cn.tf.taotao.service;
 
 import cn.tf.taotao.common.pojo.EUDResult;
 import cn.tf.taotao.common.utils.TaotaoResult;
-import cn.tf.taotao.po.TbItemDesc;
 import cn.tf.taotao.po.TbItemParam;
 import cn.tf.taotao.po.TbItemParamItem;
 

@@ -1,15 +1,12 @@
 package cn.tf.taotao.rest.service.impl;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Service;
-
 import cn.tf.taotao.common.utils.ExceptionUtil;
 import cn.tf.taotao.common.utils.TaotaoResult;
 import cn.tf.taotao.rest.dao.JedisClient;
 import cn.tf.taotao.rest.service.RedisService;
-
-import redis.clients.jedis.JedisCluster;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 
 @Service
 public class RedisServiceImpl implements RedisService{

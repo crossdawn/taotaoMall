@@ -1,17 +1,13 @@
 package cn.tf.taotao.controller;
 
+import cn.tf.taotao.common.pojo.EUDResult;
+import cn.tf.taotao.common.utils.TaotaoResult;
+import cn.tf.taotao.po.TbContent;
+import cn.tf.taotao.service.ContentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-
-import cn.tf.taotao.common.pojo.EUDResult;
-import cn.tf.taotao.common.utils.TaotaoResult;
-import cn.tf.taotao.po.TbContent;
-import cn.tf.taotao.po.TbItem;
-import cn.tf.taotao.po.TbItemDesc;
-import cn.tf.taotao.po.TbItemParamItem;
-import cn.tf.taotao.service.ContentService;
 
 @Controller
 public class ContentController {

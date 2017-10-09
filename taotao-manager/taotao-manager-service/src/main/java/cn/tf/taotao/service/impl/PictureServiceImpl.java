@@ -1,16 +1,15 @@
 package cn.tf.taotao.service.impl;
 
-import java.util.HashMap;
-import java.util.Map;
-
+import cn.tf.taotao.common.utils.FtpUtil;
+import cn.tf.taotao.common.utils.IDUtils;
+import cn.tf.taotao.service.PictureService;
 import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import cn.tf.taotao.common.utils.FtpUtil;
-import cn.tf.taotao.common.utils.IDUtils;
-import cn.tf.taotao.service.PictureService;
+import java.util.HashMap;
+import java.util.Map;
 
 
 @Service

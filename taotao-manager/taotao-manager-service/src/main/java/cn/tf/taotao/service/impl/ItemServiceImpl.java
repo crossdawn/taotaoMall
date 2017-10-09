@@ -1,11 +1,5 @@
 package cn.tf.taotao.service.impl;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import cn.tf.taotao.common.pojo.EUDResult;
 import cn.tf.taotao.common.utils.ExceptionUtil;
 import cn.tf.taotao.common.utils.IDUtils;
@@ -13,13 +7,17 @@ import cn.tf.taotao.common.utils.TaotaoResult;
 import cn.tf.taotao.mapper.TbItemDescMapper;
 import cn.tf.taotao.mapper.TbItemMapper;
 import cn.tf.taotao.mapper.TbItemParamItemMapper;
-import cn.tf.taotao.po.TbItem;
-import cn.tf.taotao.po.TbItemDesc;
-import cn.tf.taotao.po.TbItemDescExample;
-import cn.tf.taotao.po.TbItemExample;
+import cn.tf.taotao.po.*;
 import cn.tf.taotao.po.TbItemExample.Criteria;
-import cn.tf.taotao.po.TbItemParamItem;
 import cn.tf.taotao.service.ItemService;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 @Service
 public class ItemServiceImpl implements ItemService{
@@ -64,7 +62,7 @@ public class ItemServiceImpl implements ItemService{
 	
 			EUDResult result=new EUDResult();
 			result.setRows(list);
-			PageInfo<TbItem>  pageInfo=new PageInfo<>(list);
+			PageInfo<TbItem> pageInfo=new PageInfo<>(list);
 			result.setTotal(pageInfo.getTotal());
 			return result;
 	}

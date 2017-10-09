@@ -1,15 +1,14 @@
 package cn.tf.taotao.order.controller;
 
+import cn.tf.taotao.common.utils.ExceptionUtil;
+import cn.tf.taotao.common.utils.TaotaoResult;
+import cn.tf.taotao.order.pojo.Order;
+import cn.tf.taotao.order.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-
-import cn.tf.taotao.common.utils.ExceptionUtil;
-import cn.tf.taotao.common.utils.TaotaoResult;
-import cn.tf.taotao.order.pojo.Order;
-import cn.tf.taotao.order.service.OrderService;
 
 @Controller
 public class OrderController {

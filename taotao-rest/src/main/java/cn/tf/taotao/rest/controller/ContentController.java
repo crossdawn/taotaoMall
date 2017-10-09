@@ -1,17 +1,16 @@
 package cn.tf.taotao.rest.controller;
 
-import java.util.List;
-
+import cn.tf.taotao.common.utils.ExceptionUtil;
+import cn.tf.taotao.common.utils.TaotaoResult;
+import cn.tf.taotao.po.TbContent;
+import cn.tf.taotao.rest.service.ContentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import cn.tf.taotao.common.utils.ExceptionUtil;
-import cn.tf.taotao.common.utils.TaotaoResult;
-import cn.tf.taotao.po.TbContent;
-import cn.tf.taotao.rest.service.ContentService;
+import java.util.List;
 
 @Controller
 @RequestMapping("/content")

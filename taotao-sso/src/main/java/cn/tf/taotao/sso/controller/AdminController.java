@@ -1,24 +1,20 @@
 package cn.tf.taotao.sso.controller;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
+import cn.tf.taotao.common.utils.ExceptionUtil;
+import cn.tf.taotao.common.utils.TaotaoResult;
+import cn.tf.taotao.po.TbAdminUser;
+import cn.tf.taotao.sso.service.AdminService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.converter.json.MappingJacksonValue;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import cn.tf.taotao.common.utils.ExceptionUtil;
-import cn.tf.taotao.common.utils.TaotaoResult;
-import cn.tf.taotao.po.TbAdminUser;
-import cn.tf.taotao.po.TbUser;
-import cn.tf.taotao.sso.service.AdminService;
-import cn.tf.taotao.sso.service.UserService;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 @Controller
 @RequestMapping("/user/admin")

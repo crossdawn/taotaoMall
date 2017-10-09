@@ -2,5 +2,16 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/../taotaoMall" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../taotaoMall/taotao-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../taotaoMall/taotao-manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../taotaoMall/taotao-manager/taotao-manager-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../taotaoMall/taotao-manager/taotao-manager-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../taotaoMall/taotao-manager/taotao-manager-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../taotaoMall/taotao-manager/taotao-manager-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../taotaoMall/taotao-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../taotaoMall/taotao-portal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../taotaoMall/taotao-rest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../taotaoMall/taotao-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../taotaoMall/taotao-sso" charset="UTF-8" />
   </component>
 </project>
