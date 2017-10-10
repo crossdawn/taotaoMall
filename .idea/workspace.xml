@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="110e2b35-7c99-4cbd-bd33-8adcc25ebb51" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotaoMall/taotao-common/src/main/main.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotaoMall/taotao-manager/taotao-manager-mapper/src/main/main3.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotaoMall/taotao-manager/taotao-manager-pojo/src/main/main8.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotaoMall/taotao-manager/taotao-manager-service/src/main/main6.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotaoMall/taotao-manager/taotao-manager-web/src/main/main1.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotaoMall/taotao-order/src/main/main7.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotaoMall/taotao-portal/src/main/main9.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotaoMall/taotao-rest/src/main/main2.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotaoMall/taotao-search/src/main/main5.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../taotaoMall/taotao-sso/src/main/main4.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotaoMall/.gitignore" afterPath="$PROJECT_DIR$/../taotaoMall/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../taotaoMall/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../taotaoMall/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../taotaoMall/out/" />
@@ -715,7 +704,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507553729645</updated>
-      <workItem from="1507553731054" duration="3380000" />
+      <workItem from="1507553731054" duration="3416000" />
     </task>
     <task id="LOCAL-00001" summary="123·234">
       <created>1507554864947</created>
@@ -759,11 +748,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507603574566</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="123·234">
+      <created>1507603982405</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1507603982405</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3380000" />
+    <option name="totallyTimeSpent" value="3416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
