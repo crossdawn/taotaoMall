@@ -83,9 +83,9 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
-				<configuration>
-					<version>2.5</version>
-				</configuration>
+				<!--<configuration>-->
+					<!--<version>2.5</version>-->
+				<!--</configuration>-->
 			</plugin>
 			<!-- 配置插件 -->
 			<plugin>
